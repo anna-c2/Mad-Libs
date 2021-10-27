@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mad Libs</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div class="main">
+            <img style="height:100px;" src="https://static.wikia.nocookie.net/logopedia/images/d/d7/Yhujik.png/revision/latest?cb=20160207144431">
+            <div class="game">
+                
+                <h1 style="text-shadow: -2px 2px #c299bc; color:#bf28a9; font-size:40px;"> Fortune Teller</h1>
+                <div class="startscreen">
+                    <div style="text-align:center;border:1px solid black;margin-left:70px;margin-right:70px;background:#ffdbfd;">
+                        <h3>Instructions:</h3>
+                       
+                        <ol style="margin-left:45px;text-align:left;font-family: 'Quicksand', sans-serif;font-size:20px;">
+                            <li>Choose a color.</li>
+                            <li>Choose a number.</li>
+                            <li>Enter in a word that matches the prompt.</li>
+                            <li>Read your fortune! <em style="font-size:15px;">(The word(s) you submitted will be incorporated into your fortune.)</em></li>
+                        </ol>
+                    </div>
+                    <button style="background:#edabe9;color:#915e8e;font-size:30px;" class="startgame"> Start Game</button>
+                </div>
+                <h2 class="choosenumber">Choose a color:</h2>
+                <div class="first">
+
+                    <div style="background:#d1bcf5; color:#7555ab;" class="purple color">Purple</div>
+                    <div style="background:#8dbbf0;color:#558bc9;" class="blue color">Blue</div>
+                </div>
+                <div class="first">
+                    <div style="background:#ffa3a3;color:#b03a3a;" class="red color">Red</div>
+                    <div style="background:#b3e3b6;color:#57945b;" class="green color">Green</div>
+                </div>
+
+                <div style="text-align:center" class="pchoosenumber">
+                    <h2>Choose a Number</h2>
+                    <div class="second">
+                        <div style="background:#d1bcf5; color:#7555ab;" class="number purple1">1</div>
+                        <div style="background:#d1bcf5; color:#7555ab;" class="number purple2">3</div>
+                    </div>
+                </div>
+
+                <div class="purple1_1">
+                    <p class="prompt">Choose an adjective:</p>
+                    <input class="purpleinput1" placeholder="beautiful">
+                    <br>
+                    <button class="purple_adj_submit">Submit</button>
+                </div>
+
+                <div class="purple1_2">
+                    <p class="prompt">Choose a person in the room:</p>
+                    <input class="purpleinput2" placeholder="Timothy">
+                    <br>
+                    <button class="purple_person_submit">Submit</button>
+                </div>
+
+                <div style="text-align:center" class="bchoosenumber">
+                    <h2>Choose a Number</h2>
+                    <div class="second">
+                        <div style="background:#8dbbf0;color:#558bc9;" class="number blue8">8</div>
+                        <div style="background:#8dbbf0;color:#558bc9;" class="number blue7">7</div>
+                    </div>
+                </div>
+
+                <div class="blue8prompt">
+                    <p class="prompt">Choose an adjective:</p>
+                    <input class="blue8input" placeholder="beautiful">
+                    <br>
+                    <button class="blue8submit">Submit</button>
+                </div>
+
+                <div class="blue7prompt">
+                    <p class="prompt">Choose a number greater than one:</p>
+                    <input class="blue7num_input" placeholder="2">
+                    <p class="prompt">Choose a plural noun:</p>
+                    <input class="blue7noun_input" placeholder="cows">
+                    <br>
+                    <button class="blue7submit">Submit</button>
+                </div>
+
+                <div style="text-align:center" class="rchoosenumber">
+                    <h2>Choose a Number</h2>
+                    <div class="second">
+                        <div style="background:#ffa3a3;color:#b03a3a;" class="number red5">5</div>
+                        <div style="background:#ffa3a3;color:#b03a3a;" class="number red6">6</div>
+                    </div>
+                </div>
+
+                <div class="red5prompt">
+                    <p class="prompt">Choose an adjective:</p>
+                    <input class="red5adj_input" placeholder="beautiful">
+                    <p class="prompt">Choose a singular noun:</p>
+                    <input class="red5noun_input" placeholder="cow">
+                    <br>
+                    <button class="red5submit">Submit</button>
+                </div>
+
+                <div class="red6prompt">
+                    <p class="prompt">Choose an article of clothing you are wearing: </p>
+                    <input class="red6input" placeholder="jeans">
+                    <br>
+                    <button class="red6submit">Submit</button>
+                </div>
+
+                <div style="text-align:center" class="gchoosenumber">
+                    <h2>Choose a Number</h2>
+                    <div class="second">
+                        <div style="background:#b3e3b6;color:#57945b;" class="number green4">4</div>
+                        <div style="background:#b3e3b6;color:#57945b;" class="number green2">2</div>
+                    </div>
+                </div>
+
+                <div class="green2prompt">
+                    <p class="prompt">Choose an adjective:</p>
+                    <input class="green2input" placeholder="beautiful">
+                    <br>
+                    <button class="green2submit">Submit</button>
+                </div>
+
+                <div class="green4prompt">
+                    <p class="prompt">Choose a part of the body: </p>
+                    <input class="green4input" placeholder="arm">
+                    <br>
+                    <button class="green4submit">Submit</button>
+                </div>
+                <p style="color:red" class="warning">Please fill out all fields.</p>
+                <div class="result"></div>
+                <button class="reset" style="background:#edabe9;color:#915e8e;">Restart</button>
+            </div>
+        </div>
+    </body>
+</html>
